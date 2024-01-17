@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: radial-gradient( circle 760px at 50.7% 60.5%,  rgba(76,120,183,1) 0%, rgba(34,70,122,1) 90% );
+}
+.container{
+    position: relative;
+    top: 50px;
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid rgb(206, 215, 227);
+    display: flex;
+    /* * flex-direction: row;  defalt */
+    /* * flex-direction: column; vertically */
+    /* * justify-content: space-between; */
+    /* * justify-content: space-evenly; */
+    /* * justify-content: space-around; */
+    /* * justify-content: center; Horizontally-center  */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* align-items: center; vertical-center */
+    /* flex-wrap: wrap; */
+}
+/*  .container > div{
+     flex: 1;  each box of item take same width 
+} */
+/* .container .item2{
+    flex: 2;
+} */
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color: #756AB6;
+    order: 3;
+    /* align-self: flex-end; */
+}
+.item2{
+    width: 100px;
+    height: 100px;
+    order: 1;
+    background-color: #B4D4FF;
+    /* align-self: center; */
+}
+.item3{
+    width: 100px;
+    height: 100px;
+    background-color: #A1EEBD;
+}
+.item4{
+    /* align-self: flex-end; */
+    width: 100px;
+    height: 100px;
+    background-color: #e2eea1;
+    order: -1;
+}
+.flexB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%;
+    text-align: center;
+    position: relative; */
+    font-size: 20px;
+    color: #ffffff;
+    width: 200px;
+    height: 200px;
+}
